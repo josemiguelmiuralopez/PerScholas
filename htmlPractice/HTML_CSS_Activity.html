@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">pwd
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    h1 {
+      color: fuchsia;
+    }
+
+    body p {
+      color: peachpuff;
+    }
+
+    h1 > p {
+      background-color: aqua;
+    }
+
+    label + input {
+      border-radius: 30%;
+    }
+
+    label ~ button {
+      border-radius: 40%
+    }
+  
+
+  </style>
+</head>
+<body>
+  <h1>My super header
+    <p>my little paragraph</p>
+  </h1>
+
+  <p>My paragraph. It's the best.</p>
+
+  <p>Check this out <a href="https://www.mongodb.com/mern-stack" target="_blank">MERN Stack</a>.</p>
+
+  <form>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+
+    <button type="submit">Submit:</button>
+  </form>
+
+</body>
+</html>
